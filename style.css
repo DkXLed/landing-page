@@ -1,0 +1,9 @@
+/* Fishing in Style.css */
+
+*{
+    background-color: rgb(60, 60, 97);
+}
+
+.header{
+    display: flex;
+}
