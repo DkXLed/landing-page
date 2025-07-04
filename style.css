@@ -1,9 +1,129 @@
 /* Fishing in Style.css */
 
-*{
-    background-color: rgb(60, 60, 97);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.header{
-    display: flex;
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
 }
+
+img {
+    max-width: 100%;
+}
+
+h1,  
+h4 {
+    margin-bottom: 6px;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+.boxes{
+    display: flex;
+    size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    min-height: 400px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    min-height: 350px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.foot {
+    background-color: #1f2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    size: 18px;
+    color: #e5e7eb;
+}
+
+.container .nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-right: 25px;
+}
+
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.boxes .profile {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.container h1 {
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
+}
+
+.header p {
+    margin-right: 50px;
+}
+
