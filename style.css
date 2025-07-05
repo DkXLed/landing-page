@@ -44,7 +44,7 @@ h2 {
 }
 
 .navbar {
-    background-color: #1f2937;
+    background-color: #041935;
     color: white;
     height: 50px;
 }
@@ -56,8 +56,26 @@ h2 {
     min-height: 350px;
 }
 
-.quote {
+.quote .container {
+    display: flex;
     background-color: #e5e7eb;
+    min-height: 300px;
+    align-items: center;
+}
+.container p1 {
+    display: flex;
+    font-style: italic;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.container p2 {
+    display: flex;
+    font-weight: 900;
+    font-size: 16px;
+    align-self: flex-end;
+    margin-bottom: 75px;
+    margin-right: 120px;
+    flex-shrink: 0;
 }
 
 .foot {
@@ -126,4 +144,5 @@ ul {
 .header p {
     margin-right: 50px;
 }
+
 
