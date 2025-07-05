@@ -45,8 +45,8 @@ h3 {
 }
 
 .navbar {
-    background-color: #041935;
-    color: white;
+    background-color: #747a81;
+    color: black;
     height: 50px;
 }
 
@@ -83,8 +83,9 @@ blockquote p {
 }
 
 .foot {
-    background-color: #1f2937;
-    color: white;
+    background-color: white;
+    color: black;
+    align-items: center;
 }
 
 ul {
@@ -101,7 +102,7 @@ ul {
 .navbar a {
     text-decoration: none;
     size: 18px;
-    color: #e5e7eb;
+    color: black;
 }
 
 .container .nav {
@@ -155,4 +156,45 @@ ul {
     margin-right: 50px;
 }
 
+.end .container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 250px;
+    align-items: center;
+    margin: auto;
+    background-color: seagreen;
+}
 
+.container .snark {
+    justify-content: flex-start;
+    max-width: 300px;
+}
+
+.container .but {
+    align-self: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    size: large;
+}
+.end {
+    justify-content: center;
+}
+
+.feet{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+@media(max-width: 768px) {
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+
+        .boxes .container {
+            display: block;
+            text-align: center;
+        }
+    }
+}
